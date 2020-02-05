@@ -1,0 +1,13 @@
+.list {
+  border: 1px solid #d2d2d2;
+  border-radius: 5px;
+  margin-top: 25px;
+}
+
+.item {
+  padding: 15px;
+}
+
+.item + .item {
+  border-top: 1px solid #d2d2d2;
+}

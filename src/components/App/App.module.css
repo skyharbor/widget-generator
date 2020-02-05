@@ -1,0 +1,14 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 925px) {
+  .container {
+    width: 900px;
+    padding: 25px;
+    margin: 50px auto;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+  }
+}
