@@ -14,7 +14,7 @@ function useHotelApi(hotelId: number) {
 
   useEffect(() => {
     fetch(
-      `http://my-json-server.typicode.com/radek-shake/react-endpoints/hotels/${hotelId}`
+      `https://my-json-server.typicode.com/radek-shake/react-endpoints/hotels/${hotelId}`
     )
       .then(handleResponse)
       .then(

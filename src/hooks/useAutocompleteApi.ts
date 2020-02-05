@@ -14,7 +14,7 @@ function useAutocompleteApi() {
 
   useEffect(() => {
     fetch(
-      "http://my-json-server.typicode.com/radek-shake/react-endpoints/autocomplete"
+      "https://my-json-server.typicode.com/radek-shake/react-endpoints/autocomplete"
     )
       .then(handleResponse)
       .then(
